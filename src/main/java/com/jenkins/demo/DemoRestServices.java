@@ -8,7 +8,7 @@ public class DemoRestServices {
 	
 	@GetMapping("/env")
 	public String display(){
-		return "This is Jenkins Project!";
+		return "This is Jenkins Project! with Pulling";
 	}
 
 }
